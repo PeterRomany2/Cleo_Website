@@ -185,8 +185,8 @@ def display_metric(col, title, value, df, column, color, time_frame):
 df = load_data()
 
 # Set up input widgets
-st.logo(image=r"C:\Users\beter\PycharmProjects\QA-Engine\cclogo.png",
-        icon_image=r"C:\Users\beter\PycharmProjects\QA-Engine\1.png")
+st.logo(image=r"cclogo.png",
+        icon_image=r"1.png")
 
 with st.sidebar:
     st.title("Cleo Laboratories Dashboard")
