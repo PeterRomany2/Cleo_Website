@@ -40,7 +40,7 @@ def chat(message):
     user_message = [{
         'role': 'user',
         'content': fr"""
-        use: df = pd.read_csv(r"C:\Users\beter\PycharmProjects\QA-Engine\Cleo_Data.csv")
+        use: df = pd.read_csv(r"Cleo_Data.csv")
 and use: column names of this df:['DATE', 'SALES', 'ORDERS', 'CUSTOMER_REVIEWS']
 your task is: {message} (perform this task in python and show results in streamlit code with plotly)(write only the required code)
 """
