@@ -56,7 +56,7 @@ with st.container():
             - **Value:** $188.57K
             """)
     with col2:
-        st.image(r"C:\Users\beter\Pictures\Picture2.png", caption="Sale Price Distribution")
+        st.image(r"Picture2.png", caption="Sale Price Distribution")
 
 # Coefficient of Variation (CV)
 st.subheader("Coefficient of Variation (CV) Interpretation for Sale Price")
@@ -145,7 +145,7 @@ with st.container():
         """)
     with col2:
         st.subheader("Volume wise lot shape Market")
-        st.image(r"C:\Users\beter\Pictures\Picture2.png", caption="House Shape Distribution in Sales")
+        st.image(r"Picture2.png", caption="House Shape Distribution in Sales")
 
 # House Sale Industry Section
 
@@ -161,7 +161,7 @@ with st.container():
         """)
     with col2:
         st.subheader("Sale Total Volume by Region 2007and2008")
-        st.image(r"C:\Users\beter\Pictures\Picture2.png", caption="Sales Distribution by Year and Region")
+        st.image(r"Picture2.png", caption="Sales Distribution by Year and Region")
 
 
 
