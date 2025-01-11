@@ -26,7 +26,7 @@ lottie_html = """
 components.html(lottie_html, height=250)
 
 # Set the API URL for the local Ollama service
-ollama.api_url = "http://localhost:5005"  # Adjust if Ollama is running on a different port
+ollama.api_url = "127.0.0.1:11434"  # Adjust if Ollama is running on a different port
 
 # Function to handle the chat interaction with the model
 def chat(message):
